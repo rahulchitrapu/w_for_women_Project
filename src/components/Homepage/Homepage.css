@@ -1,0 +1,21 @@
+
+.homepage{
+   
+    width: 76%;
+    height: 100vh;
+    position: absolute;
+    left:23%;
+    top:13%;
+    margin:10px;
+}
+@media screen and (max-width: 650px) {
+    .homepage{
+   
+        width: 90%;
+        height: 100vh;
+        position: absolute;
+        left:10%;
+        top:13%;
+        margin:10px;
+    }
+}

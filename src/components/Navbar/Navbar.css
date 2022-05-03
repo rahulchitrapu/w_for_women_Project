@@ -1,0 +1,134 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12%;
+    border: 1px solid rgba(202, 194, 194, 0.8);
+    position:fixed;
+    
+    left: 1px; 
+    z-index: 1;
+    background-color:white;
+    
+}
+.main_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-right:30px;
+    list-style-type:none;
+    justify-content: center;
+    align-items:baseline;
+    margin-top: 30px;
+}
+.list{
+    padding-right:10px ;
+    font-size:0.8rem;
+    font-style:oblique;
+}
+#searchbtn{
+   margin-left: -32px;
+    height:35px;
+    border: none;
+    background-color: white;
+}
+#inputsearch{
+    height:20px;
+    width:250px;
+    padding: 10px;
+    
+}
+
+.search{
+    position: absolute;
+    right:200px;
+    margin:17px;
+   
+}
+.right{
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo1{
+    margin-left: 5px;
+    
+    height: 70  px;
+    width: 100px;
+    
+}
+.right button{
+    margin-left: 10px;
+}
+.list:hover{
+    color: maroon;
+}
+.login{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border:black;
+    border-radius: 20% 20%;
+}
+.wishlist{
+    color: black;
+    background-color: white;
+    border: none;
+   
+}
+.cart{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border:black;
+    border-radius: 20% 20%;
+}
+@media screen and (max-width: 1000px) {
+    .main_list{
+        display: none;
+    }
+    .right{
+        position: absolute;
+        float: right;
+        right: 30px;
+        top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .search{
+        position: absolute;
+       display: flex;
+        left: 30%;
+    }
+    #searchbtn{
+         margin-left: -32px;
+         margin-top:2px;
+         height:40px;
+        
+         background-color: white;
+     }
+     .right{
+        position: absolute;
+        float: right;
+        right: 10px;
+        top: 20px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    
+}
